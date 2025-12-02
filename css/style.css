@@ -22,3 +22,26 @@ div.fixed {
   height: 200px;
   border: 3px solid #73AD21;
 }
+
+div.relativesticky {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  border: 3px solid green;
+}
+
+div.absolute {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid red;
+}
+
+div.sticky {
+  position: sticky;
+  top: 0;
+  background-color: green;
+  border: 2px solid #4CAF50;
+}
